@@ -61,10 +61,8 @@ include "../inc/sidebar.php"
                                                     Dropdown
                                                     </a>
                                                     <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                        <a class="dropdown-item" href="#">Admin</a>
+                                                        <a class="dropdown-item" href="#">User</a>
                                                     </div>
                                                 </td>
                                                 <td>

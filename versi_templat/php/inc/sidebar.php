@@ -3,7 +3,7 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link" href="../page/index.php">
+                            <a class="nav-link" href="../page/dashboard.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -31,7 +31,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-key"></i></div>
                                 Ganti Password
                             </a>
-                            <a class="nav-link" href="../login.php">
+                            <a class="nav-link" href="auth/index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-arrow-left"></i></div>
                                 Logout
                             </a>

@@ -39,14 +39,23 @@ include "../inc/sidebar.php"
                                             <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                                           </div>
                                         </div>
-
+                                                <td> 
+                                                    <a class="nav-link dropdown-toggle col-sm-1 mb-2 col-form-label btn-primary" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                                    Level User
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Admin</a>
+                                                        <a class="dropdown-item" href="#">User</a>
+                                                    </div>
+                                                </td>
                                         <!-- file -->
-                                        <div class="row mb-3">
+                                          <div class="row mb-3">
                                             <label for="formFile" class="col-sm-2 col-form-label">Passfoto</label>
                                             <div class="col-sm-2">
                                                 <input class="form-control" type="file" id="formFile">
                                             </div>
                                           </div>
+                                          
                                         <button type="submit" class="btn btn-primary">Input </button>
                                         <a class="btn btn-primary float-right" href="user.php" role="button">Kembali <i class="fas fa-back"></i></a>
                                       </form>
