@@ -13,7 +13,7 @@ require_once __DIR__ . '/../config.php'; // Memuat config.php dari folder root
 
                             <a class="nav-link" href="<?= __BASEURL__ ?>page/cuti/cuti.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-bookmark"></i></div>
-                                Pengajuan Cuti
+                                Pengajuan Cuti Staff
                             </a>
 
                             <a class="nav-link" href="<?= __BASEURL__ ?>page/cutiatasan/cuti.php">

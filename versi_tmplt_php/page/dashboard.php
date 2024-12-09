@@ -16,7 +16,7 @@ include "../inc/sidebar.php"
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-white  text-uppercase mb-1">
-                                                    Total Devisi</div>
+                                                    Total Divisi</div>
                                                 <div class="h5 mb-0 font-weight-bold text-white">3</div>
                                             </div>
                                             <div class="col-auto">
@@ -161,8 +161,106 @@ include "../inc/sidebar.php"
                             </div>
                         </div>
                         <br>
-                   
-                            <div class="row ">
+
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <div class="card mb-4 text-center">
+                                    <div class="card-header">
+                                        <img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" alt="gambar" class="rounded-circle" width="100">
+                                    </div>
+                                    <div class="card-body">
+                                        <b class="h5">Ali Usman</b>
+                                        <p>+62 8917866532</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-user mr-1"></i>
+                                        Profil Saya
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table table-striped">
+                                            <tr>
+                                                <th>Nama</th>
+                                                <th>:</th>
+                                                <td>Ali Usman</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kontak</th>
+                                                <th>:</th>
+                                                <td>+62 8917866532</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Username</th>
+                                                <th>:</th>
+                                                <td>Ali</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <div class="card mb-4 text-center">
+                                    <div class="card-header">
+                                        <img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" alt="gambar" class="rounded-circle" width="100">
+                                    </div>
+                                    <div class="card-body">
+                                    <p class="mb-3"><b class="h5">Ali</b></p>
+                                        <table class="table">
+                                            <tr>
+                                                <th>Divisi</th>
+                                                <td>Pemasaran</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kontak</th>
+                                                <td>+62 8917866532</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-user mr-1"></i>
+                                        Profil Saya
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table table-striped">
+                                            <tr>
+                                                <th>Nomor</th>
+                                                <th>Jenis Cuti</th>
+                                                <th>Tanggal Request</th>
+                                                <th>Jumlah Cuti</th>
+                                                <th>Status Supervisor</th>
+                                                <th>Status Manajer</th>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Ali Usman</td>
+                                                <td>12-21-2024</td>
+                                                <td>4 Hari</td>
+                                                <td>Terima</td>
+                                                <td>Terima</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Ali Usman</td>
+                                                <td>12-30-2024</td>
+                                                <td>3 Hari</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- <div class="row ">
                                 <div class="col-sm-4 ">
                                     <div class="card">
                                         <div class="card-body">
@@ -173,8 +271,8 @@ include "../inc/sidebar.php"
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-8">
+                                </div> -->
+                                <!-- <div class="col-sm-8">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="text-xs font-weight-bold text-black  text-uppercase mb-1"> Profil</div>
@@ -205,7 +303,7 @@ include "../inc/sidebar.php"
                                         </div>
                                     </div>
                                 </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                 
