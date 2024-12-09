@@ -18,45 +18,16 @@ require_once '../../inc/sidebar.php';
 
                             <div class="card-body">
                                 <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                        <th scope="col">Pilih</th>
-                                        <th scope="col">Cuti</th>
-                                        <th scope="col">Sisa Cuti</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">
-                                                <div class="input-group-prepend">
-                                                    <input  type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
-                                                </div>
-                                            </th>
-                                            <td>Cuti Tahunan</td>
-                                            <td>10</td>
-                                        </tr>
-                                        <tr>
-                                        <th scope="row">
-                                            <div class="input-group-prepend">
-                                                <input  type="radio" name="exampleRadios" id="exampleRadios1" value="option2" >
-                                                </div>
-                                        </th>
-                                        <td>Cuti Bulanan</td>
-                                        <td>5</td>
-                                        </tr>
-                                        <tr>
-                                        <th scope="row">
-                                            <div class="input-group-prepend">
-                                                <input  type="radio" name="exampleRadios" id="exampleRadios1" value="option2" >
-                                            </div>
-                                        </th>
-                                        <td>Cuti Mingguan</td>
-                                        <td>2</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+
                                     <form>
+                                    <div class="form-group">
+                                            <label for="exampleInputNama"><h4>Pengajuan</h4></label>
+                                            <select class="form-control form-control-lg">
+                                                <option>--- Pilih Cuti ---</option>
+                                                <option>Cuti Tahunan, sisa (3 hari)</option>
+                                                <option>Cuti Bulanan, sisa (1 hari)</option>
+                                            </select>
+                                        </div>
                                         <div class="form-group">
                                             <label for="exampleInputNama"><h4>Mulai Cuti</h4></label>
                                             <input type="date" class="form-control">
