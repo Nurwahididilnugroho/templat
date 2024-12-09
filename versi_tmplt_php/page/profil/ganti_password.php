@@ -4,52 +4,28 @@ require_once '../../inc/sidebar.php';
 ?>
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Tambah User</h1>
+                        <h1 class="mt-4">Password</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Tambah User</li>
+                            <li class="breadcrumb-item active">Password</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
-                                Tambah User
+                                Password
 
                             </div>
 
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <form>
-                                        <!-- nama -->
                                         <div class="form-group">
-                                            <label for="exampleInputNama">Nama Lengkap</label>
-                                            <input type="email" class="form-control" id="exampleInputNama" aria-describedby="emailHelp">
+                                            <label for="exampleInputNama" ><h4>Ganti Password</h4></label>
+                                            <input type="text" class="form-control" autofocus>
                                         </div>
 
-                                        <!-- email -->
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Email</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                        </div>
-
-                                        <!-- pasword -->
-                                        <div class="form-group">
-                                            <label for="exampleInputPassword1">Password</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                        </div>
-                                        
-                                        <!-- kantor -->
-                                        <div class="form-group">
-                                            <label for="kantor">Alamat</label>
-                                            <input type="text" class="form-control" id="kantor">
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="formFile" class="form-label">Upload Foto</label>
-                                            <input class="form-control-file" type="file" id="formFile">
-                                          </div>
-                                       
                                         <button type="submit" class="btn btn-primary">Submit </button>
-                                        <a class="btn  " href="user.php" role="button">Kembali </a>
+                                        <a class="btn  " href="Password.php" role="button">Kembali </a>
                                       </form>
                                 </div>
                             </div>

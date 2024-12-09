@@ -1,6 +1,6 @@
 <?php
-include "../inc/header.php";
-include "../inc/sidebar.php"
+require_once '../../inc/header.php'; // Path relatif
+require_once '../../inc/sidebar.php';
 ?>
                 <main>
                     <div class="container-fluid">

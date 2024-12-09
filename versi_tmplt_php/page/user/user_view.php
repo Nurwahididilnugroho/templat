@@ -1,8 +1,10 @@
 <?php
-include "../inc/header.php";
-include "../inc/sidebar.php"
+require_once '../../inc/header.php'; // Path relatif
+require_once '../../inc/sidebar.php';
 ?>
                 <main>
+                <div class="row">
+           
                     <div class="container-fluid">
                         <h1 class="mt-4">Biodata petugas</h1>
                         <ol class="breadcrumb mb-4">
@@ -17,33 +19,62 @@ include "../inc/sidebar.php"
                             </div>
 
                             <div class="card-body">
-                                <div class="table-responsive">
-                                    <form>
-                                        <!-- nama -->
-                                        <div class="form-group">
-                                            <label for="exampleInputNama">Nama </label>
-                                            <input type="email" class="form-control" id="exampleInputNama" aria-describedby="emailHelp" placeholder="Ali">
+                                <div class="row ">
+                                    <div class="col-sm-4 ">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h3 class="card-title col-12">Ali Usman</h3>
+                                                    <h4 class="card-text col-12">2111902</h4>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <!-- email -->
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Email</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ali_usman@gmail.com">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card">
+                                        <div class="card-body">
+                                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                            <thead>
+                                                <tr>
+                                                    <th>No</th>
+                                                    <th>Jenis Cuti</th>
+                                                    <th>Tanggal Request </th>
+                                                    <th>Jumlah Cuti</th>
+                                                    <th>Status Supervisor</th>
+                                                    <th>Status Manaje</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Cuti Tahunan</td>
+                                                    <td>22-12-2023</td>
+                                                    <td>5</td>
+                                                    <td>Diterima</td>
+                                                    <td>Diterima</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Cuti Tahunan</td>
+                                                    <td>22-12-2024</td>
+                                                    <td>5</td>
+                                                    <td>Diterima</td>
+                                                    <td>Diterima</td>
+                                                </tr>
+                                            
+                                            </tbody>
+                                        </table>
                                         </div>
-
-                                        <!-- kantor -->
-                                        <div class="form-group">
-                                            <label for="kantor">Kantor</label>
-                                            <input type="text" class="form-control" id="kantor" placeholder="Cirebon, Sumatera Barat">
                                         </div>
-
-                                        <button type="submit" class="btn btn-primary">Submit </button>
-                                        <a class="btn  " href="user.php" role="button">Kembali </a>
-                                      </form>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <a href="user.php">kembali</a>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">

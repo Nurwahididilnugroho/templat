@@ -5,17 +5,17 @@ require_once __DIR__ . '/../../inc/sidebar.php';
 ?>
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Kariawan</h1>
+                        <h1 class="mt-4">Jenis Cuti</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Kariawan</li>
+                            <li class="breadcrumb-item active">Jenis Cuti</li>
                         </ol>
                         
                         <div class="card mb-4">
                             <div class="card-header">
                             <i class="fas fa-table mr-1"></i>
-                            Kariawan
-                                <!-- <a class="btn btn-primary float-right" href="user_add.php" role="button"><i class="fas fa-plus"></i> &nbsp;Tambah Kariawan </a> -->
+                            Jenis Cuti
+                                <a class="btn btn-primary float-right" href="cuti_jenis_add.php" role="button"><i class="fas fa-plus"></i> &nbsp;Tambah Cuti </a>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-6">
@@ -44,31 +44,39 @@ require_once __DIR__ . '/../../inc/sidebar.php';
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Nama</th>
-                                                <th>Email</th>
-                                                <th>Devisi</th>
-                                                <th>NIP</th>
-                                                <th>Foto</th>
-                                                <th>Aksi</th>
+                                                <th>Jenis Cuti</th>
+                                                <th>Jumlah Cuti</th>
+                                                <th>Opsi</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td><a href="user_view.php"><u>Ali</u></a></td>
-                                                <td>Ali_usman@gmail.com</td>
-                                                <td>Pemasaran</td>
-                                                <td>2111902</td>
-                                                <td><img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" alt=""></td>
+                                                <td>Cuti Tahunan</td>
+                                                <td>20 Hari </td>
                                                 <td>
-                                                    <a class="btn btn-danger btn-sm" href="user_edit.php">
-                                                        <i class="fas fa-trash fa-sm"></i>
+                                                    <a class="btn btn-secondary btn-sm" href="user_view.php">
+                                                        <i class="fas fa-search fa-sm"></i>
                                                     </a>
-                                                    &nbsp; &nbsp;
-                                                    <a class="btn btn-warning btn-sm" href="user_edit.php">
-                                                        <i class="fas fa-pen" ></i>
+                                                    &nbsp;
+                                                    <a class="btn btn-warning btn-sm" href="#">
+                                                        <i class="fas fa-setting" ></i>
                                                     </a>
+                                                </td>
+                                            </tr>
 
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Cuti Bulanan</td>
+                                                <td>14 Hari </td>
+                                                <td>
+                                                    <a class="btn btn-secondary btn-sm" href="user_view.php">
+                                                        <i class="fas fa-search fa-sm"></i>
+                                                    </a>
+                                                    &nbsp;
+                                                    <a class="btn btn-warning btn-sm" href="#">
+                                                        <i class="fas fa-setting" ></i>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         

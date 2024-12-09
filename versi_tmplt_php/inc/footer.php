@@ -1,7 +1,10 @@
-                <footer class="py-4 bg-light mt-auto">
+<?php
+require_once __DIR__ . '/../config.php'; // Memuat config.php dari folder root      
+?>  
+<footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                            <div class="text-muted">Copyright &copy; Sipaling Cuti</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
