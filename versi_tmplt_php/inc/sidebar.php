@@ -54,7 +54,7 @@ require_once __DIR__ . '/../config.php'; // Memuat config.php dari folder root
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        Wahidun
                     </div>
                 </nav>
             </div>

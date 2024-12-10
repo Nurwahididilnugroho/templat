@@ -5,41 +5,20 @@ require_once __DIR__ . '/../../inc/sidebar.php';
 ?>
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Kariawan</h1>
+                        <h1 class="mt-4">Karyawan</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Kariawan</li>
+                            <li class="breadcrumb-item active">Karyawan</li>
                         </ol>
                         
                         <div class="card mb-4">
                             <div class="card-header">
                             <i class="fas fa-table mr-1"></i>
-                            Kariawan
+                            Karyawan
                                 <a class="btn btn-primary float-right" href="cuti_add.php" role="button"><i class="fas fa-plus"></i> &nbsp;Tambah Cuti </a>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <div class="dataTables_length" id="dataTable_length">
-                                        <label>Show 
-                                            <select name="dataTable_length" aria-controls="dataTable" class="custom-select custom-select-sm form-control form-control-sm">
-                                                <option value="10">10</option>
-                                                <option value="25">25</option>
-                                                <option value="50">50</option>
-                                                <option value="100">100</option>
-                                            </select> entries
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <div id="dataTable_filter" class="dataTables_filter">
-                                        <label>Search:
-                                            <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable">
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="card-body">
-                                <div class="table-responsive">
+                                <div class="table">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
                                             <tr>
@@ -105,25 +84,19 @@ require_once __DIR__ . '/../../inc/sidebar.php';
                         </div>
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                <?php
+                require_once __DIR__ . '/../../inc/footer.php';
+                ?>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="../dist/js/scripts.js"></script>
+        <script src="../../dist/js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="../../dist/assets/demo/chart-area-demo.js"></script>
+        <script src="../../dist/assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/datatables-demo.js"></script>
+        <script src="../../dist/assets/demo/datatables-demo.js"></script>
     </body>
 </html>

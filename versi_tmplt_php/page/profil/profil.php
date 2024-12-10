@@ -17,60 +17,78 @@ require_once '../../inc/sidebar.php';
                             </div>
 
                             <div class="card-body">
-                                <div class="table-responsive">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label>Nama Depan</label>
-                                            <input type="text" class="form-control" placeholder="Nama Depan" autofocus>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Nama Belakang</label>
-                                            <input type="text" class="form-control" placeholder="Nama Belakang">
+                                <div class="table">
+                                <div class="row">
+                                    <div class="col-xl-3">
+                                        <div class="card mb-4 text-center">
+                                            <div class="card-header">
+                                                <img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" alt="gambar" class="rounded-circle" width="100">
+                                            </div>
+                                            <div class="card-body">
+                                                <b class="h5">Ali Usman</b>
+                                                <p>+62 8917866532</p>
+                                                <a class="btn btn-primary  " href="<?= __BASEURL__ ?>page/profil/profile_update.php" role="button">Edit Profile </a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Password</label>
-                                        <input type="password" class="form-control" id="inputAddress" placeholder="Password">
-                                    </div>
-                                        <div class="form-group ">
-                                            <label>Username</label>
-                                            <input type="text" class="form-control" placeholder="Username" autofocus>
+                                    <div class="col-xl-9">
+                                        <div class="card mb-4">
+                                            <div class="card-header">
+                                                <i class="fas fa-user mr-1"></i>
+                                                Profil Saya
+                                            </div>
+                                            <div class="card-body">
+                                                        <table class="table table-striped">
+                                                            <tr>
+                                                                <th>Nama</th>
+                                                                <th>:</th>
+                                                                <td>Ali Usman</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Kontak</th>
+                                                                <th>:</th>
+                                                                <td>+62 8917866532</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Username</th>
+                                                                <th>:</th>
+                                                                <td>Ali</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Divisi</th>
+                                                                <th>:</th>
+                                                                <td>Pemasaran</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Kantor</th>
+                                                                <th>:</th>
+                                                                <td>Bekasi, Jawa Barat</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <div class="form-group">
-                                            <label for="formFile" class="form-label">Upload Foto</label>
-                                            <input class="form-control-file" type="file" id="formFile">
-                                        </div>
-                                    <button type="submit" class="btn btn-primary">Sign in</button>
-                                </form>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                <?php
+                require_once __DIR__ . '/../../inc/footer.php';
+                ?>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="../dist/js/scripts.js"></script>
+        <script src="../../dist/js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="../dist/assets/demo/chart-area-demo.js"></script>
-        <script src="../dist/assets/demo/chart-bar-demo.js"></script>
+        <script src="../../dist/assets/demo/chart-area-demo.js"></script>
+        <script src="../../dist/assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="../dist/assets/demo/datatables-demo.js"></script>
+        <script src="../../dist/assets/demo/datatables-demo.js"></script>
     </body>
 </html>

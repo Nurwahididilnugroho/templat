@@ -9,7 +9,6 @@ include "../inc/sidebar.php"
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
                         <div class="row">
-
                             <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card border-left-primary shadow h-100 py-2 bg-primary">
                                     <div class="card-body">
@@ -160,6 +159,7 @@ include "../inc/sidebar.php"
                                 </div>
                             </div>
                         </div>
+
                         <br>
 
                         <div class="row">
@@ -171,6 +171,8 @@ include "../inc/sidebar.php"
                                     <div class="card-body">
                                         <b class="h5">Ali Usman</b>
                                         <p>+62 8917866532</p>
+                                        <a class="btn btn-primary  " href="<?= __BASEURL__ ?>page/profil/profile_update.php" role="button">Edit Profile </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -197,12 +199,23 @@ include "../inc/sidebar.php"
                                                 <th>:</th>
                                                 <td>Ali</td>
                                             </tr>
+                                            <tr>
+                                                <th>Divisi</th>
+                                                <th>:</th>
+                                                <td>Pemasaran</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Kantor</th>
+                                                <th>:</th>
+                                                <td>Bekasi, Jawa Barat</td>
+                                            </tr>
                                         </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+
+                        <!-- <div class="row">
                             <div class="col-xl-3">
                                 <div class="card mb-4 text-center">
                                     <div class="card-header">
@@ -259,61 +272,14 @@ include "../inc/sidebar.php"
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                            <!-- <div class="row ">
-                                <div class="col-sm-4 ">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="https://up.yimg.com/ib/th?id=OIP.nIXLLZOuxcSSlQNv-uVXyAHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" class="rounded mx-auto d-block" alt="...">
-                                            <div class="card-body">
-                                                <h4 class="rounded mx-auto d-block font-weight-bold">Ali Usman</h4>
-                                                <h4 class="rounded mx-auto d-block font-italic">2111902</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="col-sm-8">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="text-xs font-weight-bold text-black  text-uppercase mb-1"> Profil</div>
-                                            <table class="table table-hover">
-                                                <tbody>
-                                                    <tr>
-                                                        <th scope="row">Nama</th>
-                                                        <td>:</td>
-                                                        <td>Ali Usman</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Email</th>
-                                                        <td>:</td>
-                                                        <td>Ali_usman@gmail.com</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Username</th>
-                                                        <td >:</td>
-                                                        <td >Ali</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">NIP</th>
-                                                        <td >:</td>
-                                                        <td >2111902</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div> -->
-                            </div>
-                        </div>
-                
-
+                        </div> -->
                     </div>
                 </main>
+                <br>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                            <div class="text-muted">Copyright &copy; Sipaling Cuti</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
