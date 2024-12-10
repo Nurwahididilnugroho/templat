@@ -46,7 +46,7 @@ require_once __DIR__ . '/../config.php'; // Memuat config.php dari folder root
                                     Ganti Password
                             </a>
                            
-                            <a class="nav-link" href="<?= __BASEURL__ ?>page/auth/index.php">
+                            <a class="nav-link" href="<?= __BASEURL__ ?>page/auth/logout.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-arrow-left"></i></div>
                                 Logout
                             </a>
